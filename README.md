@@ -1,4 +1,4 @@
-# gender_classifier
+# Gender_classifier
 > Experiments with **Tensorflow**, **Keras** and **OpenCV**
 ## Code
 >* **crawling_image.ipynb** : crawling images by http request
@@ -13,8 +13,8 @@
 >* **Windows**
 >1. Is your VGA CUDA-Enabled? https://developer.nvidia.com/cuda-gpus
 >2. Install CUDA https://developer.nvidia.com/cuda-downloads
->3. Install cuDNN https://developer.nvidia.com/cudnn
-><br />add cudnn64_5.dll to $PATH
+>3. Install cuDNN https://developer.nvidia.com/cudnn <br />
+>>* add ./cudnn/cuda/bin/cudnn64_5.dll to $PATH
 >4. Install Anaconda https://www.anaconda.com/download/
 >5. Create tensorflow-gpu shell, install tensorflow and keras by the following scripts<br />
 >>* cmd <br />
