@@ -1,5 +1,5 @@
 # Gender_classifier
-> Experiments with **Tensorflow**, **Keras** and **OpenCV**
+> A gender classifier with **94% accuracy** of **testing set** that has been trained with **6000 examples**
 ## Code
 >* **crawling_image.ipynb** : crawling images by http request
 >* **haarCascade_face_detection.ipynb** : implements face detection by different harrcascade classifier
@@ -16,11 +16,38 @@
 >3. Install cuDNN https://developer.nvidia.com/cudnn <br />
 >>* add ./cudnn/cuda/bin/cudnn64_5.dll to $PATH
 >4. Install Anaconda https://www.anaconda.com/download/
->5. Create tensorflow-gpu shell, install tensorflow and keras by the following scripts<br />
->>* cmd <br />
->>* conda create --name tensorflow-gpu python=3.5 anaconda <br />
->>* activate tensorflow-gpu <br />
->>* pip install tensorflow-gpu <br />
->>* pip install keras <br />
+>5. Create tensorflow-gpu shell, install tensorflow, keras and OpenCV by the following scripts<br />
+>>* cmd 
+>>* conda create --name tensorflow-gpu python=3.5 anaconda 
+>>* activate tensorflow-gpu 
+>>* pip install tensorflow-gpu 
+>>* pip install keras 
+>>* conda install -c menpo opencv3 
+>>* python
+>>* import tensorflow, keras, cv2
+>>* `tensorflow.__version__` (check version)
+>>* `keras.__version__`
+>>* `cv2.__version__` (check OpenCV version)
+>>* `deactivate tensorflow-gpu` (leave shell)
+
+>* **Linux(Ubuntu1604)**
+>1. `nvidia-smi` (check VGA spec.)
+>2. `apt-get update` <br />
+>   `apt-get upgrade`
+>3. install cuda
+>4. install cudnn
+>5. install anaconda
+>6. Create tensorflow-gpu shell, install tensorflow, keras and OpenCV by the following scripts<br />
+>>* conda create -n tensorflow-gpu pyton=3.5
+>>* source activate tensorflow-gpu
+>>* conda install anaconda
+>>* conda install -c conda-forge tensorflow-gpu
+>>* conda install --channel https://conda.anaconda.org/menpo opencv3
+>>* python
+>>* import tensorflow, keras, cv2
+>>* `tensorflow.__version__` (check version)
+>>* `keras.__version__`
+>>* `cv2.__version__` (check OpenCV version)
+>>* `source deactivate tensorflow-gpu` (leave shell)
 
 
