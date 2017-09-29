@@ -1,6 +1,6 @@
 # Gender_classifier
 > A gender classifier with **94% accuracy** of **testing set** that has been trained with **6000 examples**
-## Code
+## Usage
 >* **crawling_image.ipynb** : crawling images by http request
 >* **haarCascade_face_detection.ipynb** : implements face detection by different harrcascade classifier
 >* **extract_and_save_face.ipynb** : detect faces in image, then crop and save
@@ -8,8 +8,10 @@
 >* **vgg_pre_trained_model.ipynb** : implements VGG16 model with weights pre-trained on ImageNet, but not suggest to only a few classes
 >* **data_geneterator.ipynb** : generate batches of tensor image data with real-time data augmentation
 >* **rectangle_face_mark_gender.ipynb** : implements face detection, add rectangle and mark gender to different faces in image
+## Result
+![Alt text](https://github.com/jocialiang/gender_classifier/blob/master/result.jpg "Detect result")
 ## Environment setup
-> Runing deep learning model with gpu acceleration
+> Runing deep learning model with **gpu acceleration**
 >* **Windows**
 >1. Is your VGA CUDA-Enabled? https://developer.nvidia.com/cuda-gpus
 >2. Install CUDA https://developer.nvidia.com/cuda-downloads
@@ -30,7 +32,7 @@
 >>* `cv2.__version__` (check OpenCV version)
 >>* `deactivate tensorflow-gpu` (leave shell)
 
->* **Linux(Ubuntu1604)**
+>* **Linux(Ubuntu16.04)**
 >1. `nvidia-smi` (check VGA spec.)
 >2. `apt-get update` <br />
 >   `apt-get upgrade`
