@@ -1,13 +1,13 @@
 # Gender_classifier
-> A gender classifier with **94% accuracy** of **testing set** has been trained with **6000 faces**
+> A gender classifier with **94% accuracy** of **testing sets** has been trained with **6000 faces**
 ## Usage
->* **crawling_image.ipynb** : crawling images by http request
+>* **crawling_image.ipynb** : crawling images by HTTP request
 >* **haarCascade_face_detection.ipynb** : implements face detection by different harrcascade classifier
->* **extract_and_save_face.ipynb** : detect faces in image, then crop and save
+>* **extract_and_save_face.ipynb** : detect faces in the image, then crop and save
 >* **train_gender_classifier.ipynb** : implements CNN model and training
 >* **vgg_pre_trained_model.ipynb** : implements VGG16 model with weights pre-trained on ImageNet, but not suggest to only a few classes
 >* **data_geneterator.ipynb** : generate batches of tensor image data with real-time data augmentation
->* **rectangle_face_mark_gender.ipynb** : implements face detection, add rectangle and mark gender to different faces in image
+>* **rectangle_face_mark_gender.ipynb** : implements face detection, then add rectangle and mark gender to different faces in the image
 >* **gender_classify_middle_hiar_man.h5** : training weights of this classifier
 ## Dependencies
 >* Python 3.5+
@@ -20,7 +20,7 @@
 ## Results
 ![Alt text](https://github.com/jocialiang/gender_classifier/blob/master/results.jpg "Prediction")
 ## Environment setup
-> Runing deep learning model with **gpu acceleration**
+> Running deep learning model with **GPU acceleration**
 >* **Windows**
 >1. Is your VGA CUDA-Enabled? https://developer.nvidia.com/cuda-gpus
 >2. Install CUDA https://developer.nvidia.com/cuda-downloads
@@ -48,7 +48,7 @@
 >3. install cuda
 >4. install cudnn
 >5. install anaconda
->6. Create tensorflow-gpu shell, install tensorflow, keras and OpenCV by the following scripts<br />
+>6. Create tensorflow-gpu shell. Install tensorflow, keras and OpenCV by the following scripts<br />
 >>* conda create -n tensorflow-gpu pyton=3.5
 >>* source activate tensorflow-gpu
 >>* conda install anaconda
