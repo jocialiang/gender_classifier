@@ -18,7 +18,10 @@
 >* Anaconda 4.3, CPU: i7-4790 3.60GHz, GPU: GeForce GTX750, CUDA 8.0, cuDNN 5.0
 
 ## Results
-![Alt text](https://github.com/jocialiang/gender_classifier/blob/master/results.jpg "Prediction")
+![Alt text](https://github.com/jocialiang/gender_classifier/blob/master/results_testing_set.jpg "Prediction")
+<br />
+<br />
+![Alt text](https://github.com/jocialiang/gender_classifier/blob/master/results_recognition_rectangle.jpg "Recognition and add rectangle")
 ## Environment setup
 > Running deep learning model with **GPU acceleration**
 >* **Windows**
